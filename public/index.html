@@ -7,32 +7,32 @@
 </head>
 <body>
 
-/* Top Nav */
   <nav class="header">
     <h2 class="header__title">Marvel</h2>
   </nav>
 
-/* Sidebar Nav */
   <nav class="sidebar">
     <img class="sidebar__pic" src="" alt="">
     <div class="sidebar__pic-info">
       <h3 class="sidebar__name">Spider-Girl (2010 - 2011)</h3>
-      <h5 class="sidebar__year">2010 - 2011</h5>
+      <div class="sidebar__year">
+        <h5 class="sidebar__start-year">2010</h5>
+        <h5 class="sidebar__end-year">2011</h5>
+      </div>
     </div>
     <div class="sidebar__creators">
       <h2 class="sidebar__creators-title">Creators</h2>
-      <div class="sidebar__creators-names">
-        <p>Tom Brennan</p>
-        <p>Mike Del Mundo</p>
-        <p>Clayton Henry</p>
-        <p>Barry Kitson</p>
-        <p>Jelena Kevic Djurdjevic</p>
-        <p>Paul Tobin</p>
+      <div class="sidebar__creators-list">
+        <p class="sidebar__creators-name">Tom Brennan</p>
+        <p class="sidebar__creators-name">Mike Del Mundo</p>
+        <p class="sidebar__creators-name">Clayton Henry</p>
+        <p class="sidebar__creators-name">Barry Kitson</p>
+        <p class="sidebar__creators-name">Jelena Kevic Djurdjevic</p>
+        <p class="sidebar__creators-name">Paul Tobin</p>
       </div>
     </div>
   </nav>
 
-//Characters
   <div class="characters">
     <h2 class="characters__title">Characters</h2>
     <div class="characters__details">
@@ -51,7 +51,6 @@
     </div>
   </div>
 
-  //Comics
   <div class="comics">
     <h2 class="comics__title">Comics</h2>
     <div class="comics__details">
@@ -82,6 +81,8 @@
   <script src="/app.js" charset="utf-8"></script>
 
   <script type="text/javascript">
+    var index = require('index');
+
   </script>
 </body>
 </html>
