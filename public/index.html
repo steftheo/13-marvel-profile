@@ -2,87 +2,52 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>13 Marvel Profile</title>
+  <title>Deadpool Profile</title>
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/app.css">
 </head>
 <body>
+<nav>
+  <p class="navbar__text">Marvel</p>
+</nav>
 
-  <nav class="header">
-    <h2 class="header__title">Marvel</h2>
-  </nav>
-
-  <nav class="sidebar">
-    <img class="sidebar__pic" src="" alt="">
-    <div class="sidebar__pic-info">
-      <h3 class="sidebar__name">Spider-Girl (2010 - 2011)</h3>
-      <div class="sidebar__year">
-        <h5 class="sidebar__start-year">2010</h5>
-        <h5 class="sidebar__end-year">2011</h5>
-      </div>
+<main>
+  <div class="series-details-sidebar">
+    <div class="main-img">
+      <img class="main-pic__img" src="" alt="">
     </div>
-    <div class="sidebar__creators">
-      <h2 class="sidebar__creators-title">Creators</h2>
-      <div class="sidebar__creators-list">
-        <p class="sidebar__creators-name">Tom Brennan</p>
-        <p class="sidebar__creators-name">Mike Del Mundo</p>
-        <p class="sidebar__creators-name">Clayton Henry</p>
-        <p class="sidebar__creators-name">Barry Kitson</p>
-        <p class="sidebar__creators-name">Jelena Kevic Djurdjevic</p>
-        <p class="sidebar__creators-name">Paul Tobin</p>
-      </div>
-    </div>
-  </nav>
+    <p class="main-img__heading"></p>
+    <p class="main-img__years"></p>
 
-  <div class="characters">
-    <h2 class="characters__title">Characters</h2>
-    <div class="characters__details">
-      <div class="characters__hulk">
-        <img src="" alt="" class="hulk__img">
-        <h3 class="hulk__name">Red Hulk</h3>
-      </div>
-      <div class="characters__anya">
-        <img src="" alt="" class="anya__img">
-        <h3 class="anya__name">Spider-Girl (Anya Corazon)</h3>
-      </div>
-      <div class="characters__spider-man">
-        <img src="" alt="" class="spider-man__img">
-        <h3 class="spider-man__name">Spider-Man</h3>
+
+    <div class="creaters">
+      <p class="creators-heading">Creators</p>
+      <div class="creator-names">
+        <p class="creator-names__item"></p>
       </div>
     </div>
   </div>
 
-  <div class="comics">
-    <h2 class="comics__title">Comics</h2>
-    <div class="comics__details">
-      <div class="comics__8">
-        <img src="" alt="" class="8-img">
-        <h3 class="8__title">#8</h3>
-        <h5 class="8__info">Spider-Girl (2010) #8</h5>
-        <button>Read More</button>
+  <div class="sub-main">
+    <div class="characters__list">
+      <p class="characters__heading">Characters</p>
+      <div class="characters">
       </div>
-      <div class="comics__7">
-        <img src="" alt="" class="7__img">
-        <h3 class="7__title">#7</h3>
-        <h5 class="7__info">Spider-Girl (2010) #7</h5>
-      </div>
-      <div class="comics__6">
-        <img src="" alt="" class="6__img">
-        <h3 class="6__title">#6</h3>
-        <h5 class="6__info">Spider-Girl (2010) #6</h5>
-      </div>
-      <div class="comics__5">
-        <img src="" alt="" class="5__img">
-        <h3 class="5__title">#5</h3>
-        <h5 class="5__info">Spider-Girl (2010) #5</h5>
+    </div>
+    <div class="comics__list">
+      <p class="characters__heading">Comics</p>
+      <div class="comics">
       </div>
     </div>
   </div>
+</main>
+
   <script src="/vendor.js" charset="utf-8"></script>
   <script src="/app.js" charset="utf-8"></script>
 
   <script type="text/javascript">
-    var index = require('index');
-
+  var index = require('index');
+  index();
   </script>
 </body>
 </html>
