@@ -1,0 +1,54 @@
+@import 'variables';
+
+.series-details-sidebar {
+  background: $brand-white;
+  width: 30%;
+  margin: $gutter;
+}
+
+.main-img {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+.main-img:before {
+  display: block;
+  padding-top: 100%;
+  content: '';
+}
+
+.main-pic__img {
+  position:  absolute;
+	top: 0;
+  right: 0;
+	bottom: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+
+.main-img__heading {
+  font-family: $brand-sans;
+}
+
+.main-img__years {
+  font-family: $brand-sans;
+  font-size: 0.7rem;
+}
+
+.creators-heading {
+  border-bottom: $brand-border;
+  font-family: $brand-display;
+}
+
+.creator-names {
+  font-family: $brand-sans;
+}
+
+.characters__heading {
+  font-family: $brand-display;
+  font-size: 1.5rem;
+  border-bottom: $brand-border;
+}
